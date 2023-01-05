@@ -1,0 +1,18 @@
+{
+  "$schema": "http://json.schemastore.org/tsconfig",
+  "include": ["./src/**/*"],
+	"compilerOptions": {
+    "module": "CommonJS",
+    "target": "es6",
+    "moduleResolution": "node",
+    "allowJs": false,
+    "strictNullChecks": false,
+		"strict": true,
+		"isolatedModules": true,
+    "esModuleInterop": true,
+    "declaration": true,
+    "sourceMap": true,
+    "noEmit": false,
+    "typeRoots": ["./node_modules/@types", "./typeShims"]
+	}
+}
